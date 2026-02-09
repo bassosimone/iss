@@ -50,8 +50,9 @@ func fetchWwwExampleCom(t *testing.T) (int, string) {
 
 	// Get www.example.com
 	txp := &http.Transport{
-		DialContext:     simulation.DialContext,
-		TLSClientConfig: &tls.Config{RootCAs: simulation.CertPool()},
+		DialContext:       simulation.DialContext,
+		ForceAttemptHTTP2: true,
+		TLSClientConfig:   &tls.Config{RootCAs: simulation.CertPool()},
 	}
 	clnt := &http.Client{Transport: txp}
 	hr, err := clnt.Get("https://www.example.com/")
@@ -122,8 +123,9 @@ func TestCustomHTTPHandler(t *testing.T) {
 	require.NoError(t, err)
 
 	txp := &http.Transport{
-		DialContext:     sim.DialContext,
-		TLSClientConfig: &tls.Config{RootCAs: sim.CertPool()},
+		DialContext:       sim.DialContext,
+		ForceAttemptHTTP2: true,
+		TLSClientConfig:   &tls.Config{RootCAs: sim.CertPool()},
 	}
 	clnt := &http.Client{Transport: txp}
 	hr, err := clnt.Get("https://www.example.com/")
