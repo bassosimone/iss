@@ -4,10 +4,10 @@ go 1.25.6
 
 require (
 	github.com/bassosimone/dnstest v0.0.0-20260210075929-b5564aaef1fc
-	github.com/bassosimone/minest v0.0.0-20260210075929-08267c4cd6b6
+	github.com/bassosimone/minest v0.0.0-20260212194245-cf2b83c28327
 	github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31
 	github.com/bassosimone/runtimex v0.0.0-20260108162100-336f3823f6b7
-	github.com/bassosimone/uis v0.0.0-20260210075929-6c66a80d0d26
+	github.com/bassosimone/uis v0.0.0-20260212194245-717d515263b0
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -29,5 +29,5 @@ require (
 	golang.org/x/time v0.14.0 // indirect
 	golang.org/x/tools v0.42.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gvisor.dev/gvisor v0.0.0-20260210201108-b3aa83da69bd // indirect
+	gvisor.dev/gvisor v0.0.0-20260212224830-e5b717ac263e // indirect
 )
