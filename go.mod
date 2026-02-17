@@ -7,12 +7,13 @@ require (
 	github.com/bassosimone/minest v0.0.0-20260212194245-cf2b83c28327
 	github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31
 	github.com/bassosimone/runtimex v0.0.0-20260108162100-336f3823f6b7
-	github.com/bassosimone/uis v0.0.0-20260213080240-0dccf175b019
+	github.com/bassosimone/uis v0.0.0-20260214092742-a96c20836a0a
 	github.com/stretchr/testify v1.11.1
 )
 
 require (
 	github.com/bassosimone/dnscodec v0.0.0-20260210075929-3e3592d50447 // indirect
+	github.com/bassosimone/netstub v0.0.0-20260215140819-e5f4b4b48997 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
