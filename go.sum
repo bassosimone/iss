@@ -4,8 +4,8 @@ github.com/bassosimone/dnstest v0.0.0-20260210075929-b5564aaef1fc h1:fUHjOwd1rFZ
 github.com/bassosimone/dnstest v0.0.0-20260210075929-b5564aaef1fc/go.mod h1:yltN9sit8yNGvHDZxLwNOrE5/YM/IOf+TqNRu/W7CKs=
 github.com/bassosimone/iotest v0.0.0-20260108162419-cc1a50b01693 h1:R9z1MEIO9XU9MTAeEWBzhU93IOEKDk4UIRyTmhhQFKY=
 github.com/bassosimone/iotest v0.0.0-20260108162419-cc1a50b01693/go.mod h1:tcrllxHmwim0qCBvmbyQs0CGo4s4HwMaZwblEzp6eDk=
-github.com/bassosimone/minest v0.0.0-20260212194245-cf2b83c28327 h1:nICrh0KjrFMfGOUQg4gItCd/+ds84c2TxVjM4cjZfIA=
-github.com/bassosimone/minest v0.0.0-20260212194245-cf2b83c28327/go.mod h1:uuWV9yfOse1xqvwUeh6BOwIyLnWVasN4VzMVtQC3c3w=
+github.com/bassosimone/minest v0.0.0-20260217061244-69bb49b43063 h1:u6bTYXVNR5HFSyJSl7qrAzdLGAk6OcoHON9+kcchA6Q=
+github.com/bassosimone/minest v0.0.0-20260217061244-69bb49b43063/go.mod h1:Ip1dvUc5PGEb+Iv9m75aI9iVxriz75x8ykY82xajQUw=
 github.com/bassosimone/netstub v0.0.0-20260215140819-e5f4b4b48997 h1:R50/QauP1wURY03phd3WLiD9Yarr+j4IMXPsGEbwP94=
 github.com/bassosimone/netstub v0.0.0-20260215140819-e5f4b4b48997/go.mod h1:P0CzRmMyj0/av01KYL70Cb+/RMRpmtVQf8vI7oIvcJY=
 github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31 h1:bWrYpMtPO3efLcYHqX9Z3mHmV0MGAE8uaJ1fJaEV2RE=
@@ -68,5 +68,5 @@ gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c h1:Hei/4ADfdWqJk1ZMxUNpqntN
 gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c/go.mod h1:JHkPIbrfpd72SG/EVd6muEfDQjcINNoR0C8j2r3qZ4Q=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
-gvisor.dev/gvisor v0.0.0-20260213200628-444f74c20034 h1:+JbUEmyGjIwSKswaXkEXdAnUXoD10O/gY3vXoK2bfqU=
-gvisor.dev/gvisor v0.0.0-20260213200628-444f74c20034/go.mod h1:QkHjoMIBaYtpVufgwv3keYAbln78mBoCuShZrPrer1Q=
+gvisor.dev/gvisor v0.0.0-20260217181306-caa65fdd2f77 h1:9MmAOydU0RZymwcpQRtu61q/Dvy/HbRWyOrCYectbMc=
+gvisor.dev/gvisor v0.0.0-20260217181306-caa65fdd2f77/go.mod h1:QkHjoMIBaYtpVufgwv3keYAbln78mBoCuShZrPrer1Q=

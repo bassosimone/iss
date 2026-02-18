@@ -4,7 +4,7 @@ go 1.25.6
 
 require (
 	github.com/bassosimone/dnstest v0.0.0-20260210075929-b5564aaef1fc
-	github.com/bassosimone/minest v0.0.0-20260212194245-cf2b83c28327
+	github.com/bassosimone/minest v0.0.0-20260217061244-69bb49b43063
 	github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31
 	github.com/bassosimone/runtimex v0.0.0-20260108162100-336f3823f6b7
 	github.com/bassosimone/uis v0.0.0-20260214092742-a96c20836a0a
@@ -13,7 +13,6 @@ require (
 
 require (
 	github.com/bassosimone/dnscodec v0.0.0-20260210075929-3e3592d50447 // indirect
-	github.com/bassosimone/netstub v0.0.0-20260215140819-e5f4b4b48997 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
@@ -30,5 +29,5 @@ require (
 	golang.org/x/time v0.14.0 // indirect
 	golang.org/x/tools v0.42.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gvisor.dev/gvisor v0.0.0-20260213200628-444f74c20034 // indirect
+	gvisor.dev/gvisor v0.0.0-20260217181306-caa65fdd2f77 // indirect
 )
