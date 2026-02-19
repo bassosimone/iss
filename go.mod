@@ -7,7 +7,7 @@ require (
 	github.com/bassosimone/minest v0.0.0-20260217061244-69bb49b43063
 	github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31
 	github.com/bassosimone/runtimex v0.0.0-20260108162100-336f3823f6b7
-	github.com/bassosimone/uis v0.0.0-20260214092742-a96c20836a0a
+	github.com/bassosimone/uis v0.0.0-20260218071925-7ba0e9797607
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -20,7 +20,7 @@ require (
 	github.com/miekg/dns v1.1.72 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.14.1 // indirect
-	golang.org/x/exp v0.0.0-20260212183809-81e46e3db34a // indirect
+	golang.org/x/exp v0.0.0-20260218203240-3dfff04db8fa // indirect
 	golang.org/x/mod v0.33.0 // indirect
 	golang.org/x/net v0.50.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
@@ -29,5 +29,5 @@ require (
 	golang.org/x/time v0.14.0 // indirect
 	golang.org/x/tools v0.42.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gvisor.dev/gvisor v0.0.0-20260217181306-caa65fdd2f77 // indirect
+	gvisor.dev/gvisor v0.0.0-20260218202453-9482616b494a // indirect
 )
