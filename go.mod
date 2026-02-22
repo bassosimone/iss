@@ -7,7 +7,7 @@ require (
 	github.com/bassosimone/minest v0.0.0-20260217061244-69bb49b43063
 	github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31
 	github.com/bassosimone/runtimex v0.0.0-20260108162100-336f3823f6b7
-	github.com/bassosimone/uis v0.0.0-20260219073139-2bbe4b0d27dd
+	github.com/bassosimone/uis v0.0.0-20260221084532-92014ec74ef9
 	github.com/stretchr/testify v1.11.1
 )
 
