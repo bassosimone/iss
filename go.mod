@@ -4,7 +4,7 @@ go 1.25.6
 
 require (
 	github.com/bassosimone/dnstest v0.0.0-20260227090120-60886687b754
-	github.com/bassosimone/minest v0.0.0-20260227090120-c6a13e535a96
+	github.com/bassosimone/minest v0.0.0-20260302075701-9ad9b2900649
 	github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31
 	github.com/bassosimone/runtimex v0.0.0-20260108162100-336f3823f6b7
 	github.com/bassosimone/uis v0.0.0-20260227090120-a502c7549274

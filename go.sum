@@ -4,8 +4,8 @@ github.com/bassosimone/dnstest v0.0.0-20260227090120-60886687b754 h1:zS1VifLAfxK
 github.com/bassosimone/dnstest v0.0.0-20260227090120-60886687b754/go.mod h1:uwoGB0EM9hTs6v+4JWyv8Hcq4kqiVpWIXrzzEBa6kl4=
 github.com/bassosimone/iotest v0.0.0-20260108162419-cc1a50b01693 h1:R9z1MEIO9XU9MTAeEWBzhU93IOEKDk4UIRyTmhhQFKY=
 github.com/bassosimone/iotest v0.0.0-20260108162419-cc1a50b01693/go.mod h1:tcrllxHmwim0qCBvmbyQs0CGo4s4HwMaZwblEzp6eDk=
-github.com/bassosimone/minest v0.0.0-20260227090120-c6a13e535a96 h1:0h1mJaOFBhGe5BD4z0Vxp8FrC9neql23TWw+cg1lYGI=
-github.com/bassosimone/minest v0.0.0-20260227090120-c6a13e535a96/go.mod h1:ujdRQkKiGV1D0t3GzDpzVzOXXrCasqJNIQUFmQoDTVE=
+github.com/bassosimone/minest v0.0.0-20260302075701-9ad9b2900649 h1:KEF4Sv8z7oFOfz2ygEgf7nWl2ue8YpfNNUU6Mlahy7I=
+github.com/bassosimone/minest v0.0.0-20260302075701-9ad9b2900649/go.mod h1:D+RYSlHeo6R2cJRX725/wZyldgzmr1ymLTyEBvVlpYU=
 github.com/bassosimone/netstub v0.0.0-20260215140819-e5f4b4b48997 h1:R50/QauP1wURY03phd3WLiD9Yarr+j4IMXPsGEbwP94=
 github.com/bassosimone/netstub v0.0.0-20260215140819-e5f4b4b48997/go.mod h1:P0CzRmMyj0/av01KYL70Cb+/RMRpmtVQf8vI7oIvcJY=
 github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31 h1:bWrYpMtPO3efLcYHqX9Z3mHmV0MGAE8uaJ1fJaEV2RE=
