@@ -11,7 +11,9 @@ stack, `MustNewSimulation` creates a complete simulated internet with
 working DNS resolution, TLS certificates, and HTTP/HTTPS servers.
 
 A `Router` controls packet delivery between hosts. The `DefaultRouter`
-supports a swappable `PacketFilter` for simulating censorship conditions.
+supports a simple `PacketFilter` that can only drop packets. For advanced
+filtering (e.g., injecting spoofed packets or throttling), implement
+a custom `Router` with direct access to `*uis.Internet`.
 
 Use `ScenarioV4` for a ready-made IPv4 topology, or build a custom
 `Scenario` for specific test needs.

@@ -9,7 +9,9 @@
 // working DNS resolution, TLS certificates, and HTTP/HTTPS servers.
 //
 // A [Router] controls packet delivery between hosts. The [DefaultRouter]
-// supports swappable [PacketFilter] for simulating censorship conditions.
+// supports a simple [PacketFilter] that can only drop packets. For advanced
+// filtering (e.g., injecting spoofed packets or throttling), implement
+// a custom [Router] with direct access to [*uis.Internet].
 //
 // Use [ScenarioV4] for a ready-made IPv4 topology, or build a custom
 // [Scenario] for specific test needs. Cancel the context and call
@@ -119,7 +121,11 @@ func ScenarioV4() *Scenario {
 	}
 }
 
-// PacketFilter filters packets.
+// PacketFilter is a simple packet filter used by [DefaultRouter].
+//
+// This interface can only drop packets. For richer filtering such as
+// injecting spoofed packets (e.g., TCP RST, fake DNS responses) or
+// throttling, implement a custom [Router] instead.
 type PacketFilter interface {
 	// ShouldDrop may mutate the frame or drop it returning true.
 	ShouldDrop(pkt uis.VNICFrame) bool
@@ -141,7 +147,9 @@ type Router interface {
 	Route(ctx context.Context, ix *uis.Internet)
 }
 
-// DefaultRouter is the default [Router] implementation.
+// DefaultRouter is the default [Router] implementation. It delivers
+// all packets, optionally dropping those rejected by a [PacketFilter].
+// For advanced filtering, implement [Router] directly.
 //
 // Use [NewDefaultRouter] to construct.
 type DefaultRouter struct {
@@ -159,7 +167,10 @@ func NewDefaultRouter() *DefaultRouter {
 
 // SetPacketFilter sets a [PacketFilter] for [*DefaultRouter].
 //
-// Use nil to clear the [PacketFilter].
+// The filter can only drop packets. For injecting spoofed packets
+// or applying other policies, implement a custom [Router] instead.
+//
+// Use a nil `pf` to clear the [PacketFilter].
 func (r *DefaultRouter) SetPacketFilter(pf PacketFilter) {
 	r.pfmu.Lock()
 	r.pf = pf
