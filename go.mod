@@ -3,16 +3,16 @@ module github.com/bassosimone/iss
 go 1.25.6
 
 require (
-	github.com/bassosimone/dnstest v0.0.0-20260310100807-504008aac27d
-	github.com/bassosimone/minest v0.0.0-20260310100807-df3144a82a3e
+	github.com/bassosimone/dnstest v0.0.0-20260315095815-43f9058b5317
+	github.com/bassosimone/minest v0.0.0-20260315095816-f43a2863ecf0
 	github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31
 	github.com/bassosimone/runtimex v0.0.0-20260108162100-336f3823f6b7
-	github.com/bassosimone/uis v0.0.0-20260310100807-41b03e37ea69
+	github.com/bassosimone/uis v0.0.0-20260315095815-5dfb32b84144
 	github.com/stretchr/testify v1.11.1
 )
 
 require (
-	github.com/bassosimone/dnscodec v0.0.0-20260310100807-317675eb697f // indirect
+	github.com/bassosimone/dnscodec v0.0.0-20260315095815-6c62273d0db8 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
