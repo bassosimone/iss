@@ -4,8 +4,8 @@ github.com/bassosimone/dnstest v0.0.0-20260315095815-43f9058b5317 h1:lYQftde1QWl
 github.com/bassosimone/dnstest v0.0.0-20260315095815-43f9058b5317/go.mod h1:N10K/EAw7u1O40d8jsezXQoxEZrCef3YnUwO813hCpc=
 github.com/bassosimone/iotest v0.0.0-20260108162419-cc1a50b01693 h1:R9z1MEIO9XU9MTAeEWBzhU93IOEKDk4UIRyTmhhQFKY=
 github.com/bassosimone/iotest v0.0.0-20260108162419-cc1a50b01693/go.mod h1:tcrllxHmwim0qCBvmbyQs0CGo4s4HwMaZwblEzp6eDk=
-github.com/bassosimone/minest v0.0.0-20260315095816-f43a2863ecf0 h1:cMCEDrgnqMxrULN8ZbGh+Js/qLRAJ1vWokJs8n4/nu4=
-github.com/bassosimone/minest v0.0.0-20260315095816-f43a2863ecf0/go.mod h1:b4hZcra8gC7JytC9u6VGiSc+RKDbiSrmxu3zw9UxBg8=
+github.com/bassosimone/minest v0.0.0-20260316100245-448cfd743303 h1:h4BIq8qaEvowgGURXKcWKNuOrPXY5wMs9O5v6zVMVD4=
+github.com/bassosimone/minest v0.0.0-20260316100245-448cfd743303/go.mod h1:UofySUvx06S1mUQwPxrq8ycDmEEC55JWiBNteaF7ONs=
 github.com/bassosimone/netstub v0.0.0-20260215140819-e5f4b4b48997 h1:R50/QauP1wURY03phd3WLiD9Yarr+j4IMXPsGEbwP94=
 github.com/bassosimone/netstub v0.0.0-20260215140819-e5f4b4b48997/go.mod h1:P0CzRmMyj0/av01KYL70Cb+/RMRpmtVQf8vI7oIvcJY=
 github.com/bassosimone/pkitest v0.0.0-20260108162522-4e97d4738e31 h1:bWrYpMtPO3efLcYHqX9Z3mHmV0MGAE8uaJ1fJaEV2RE=
@@ -68,5 +68,5 @@ gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c h1:Hei/4ADfdWqJk1ZMxUNpqntN
 gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c/go.mod h1:JHkPIbrfpd72SG/EVd6muEfDQjcINNoR0C8j2r3qZ4Q=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
-gvisor.dev/gvisor v0.0.0-20260312211231-b4724f244352 h1:gRqlhQZpLoYdTZtCEEvVWAPd7WKbIR8GvK4n96r04Ss=
-gvisor.dev/gvisor v0.0.0-20260312211231-b4724f244352/go.mod h1:xQ2PWgHmWJA/Ph4i1q1jBm39BKhc3W0DXqWoDSyuBOY=
+gvisor.dev/gvisor v0.0.0-20260321183140-ae1fda41cd56 h1:uv6AK24/CooJVX742UPHx2Eneu08SPrZnb77lzw/HmY=
+gvisor.dev/gvisor v0.0.0-20260321183140-ae1fda41cd56/go.mod h1:xQ2PWgHmWJA/Ph4i1q1jBm39BKhc3W0DXqWoDSyuBOY=
