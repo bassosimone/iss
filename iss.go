@@ -28,6 +28,7 @@ import (
 	"net/http/httptest"
 	"net/netip"
 	"sync"
+	"time"
 
 	"github.com/bassosimone/dnstest"
 	"github.com/bassosimone/minest"
@@ -423,6 +424,17 @@ var DefaultHTTPHandler http.Handler = http.HandlerFunc(func(w http.ResponseWrite
 	_, _ = w.Write([]byte(exampleComHTML))
 })
 
+// newUnstartedServer creates an httptest.Server with timeouts so that in-flight handlers
+// cannot block Close() forever when the underlying gVisor stack tears down.
+func newUnstartedServer(handler http.Handler) *httptest.Server {
+	httpSrv := httptest.NewUnstartedServer(handler)
+	httpSrv.Config.ReadHeaderTimeout = 5 * time.Second
+	httpSrv.Config.ReadTimeout = 30 * time.Second
+	httpSrv.Config.WriteTimeout = 30 * time.Second
+	httpSrv.Config.IdleTimeout = 30 * time.Second
+	return httpSrv
+}
+
 // mustInitHTTPServer initializes an [HTTPServer].
 func (sx *Simulation) mustInitHTTPServer(hs *HTTPServer) {
 	// Sanity checks
@@ -485,7 +497,7 @@ func (sx *Simulation) mustInitHTTPServer(hs *HTTPServer) {
 			"tcp",
 			makeStringEpnt(addr, 80),
 		))
-		httpSrv := httptest.NewUnstartedServer(handler)
+		httpSrv := newUnstartedServer(handler)
 		httpSrv.Listener = httpListener
 		httpSrv.Start()
 		sx.closers = append(sx.closers, httpSrv)
@@ -497,7 +509,7 @@ func (sx *Simulation) mustInitHTTPServer(hs *HTTPServer) {
 				"tcp",
 				makeStringEpnt(addr, 443),
 			))
-			httpsSrv := httptest.NewUnstartedServer(handler)
+			httpsSrv := newUnstartedServer(handler)
 			httpsSrv.Listener = httpsListener
 			httpsSrv.TLS = &tls.Config{
 				Certificates: []tls.Certificate{cert},
