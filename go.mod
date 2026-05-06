@@ -3,16 +3,16 @@ module github.com/bassosimone/iss
 go 1.25.6
 
 require (
-	github.com/bassosimone/dnstest v0.0.0-20260426214552-21e88fb85db8
-	github.com/bassosimone/minest v0.0.0-20260426222227-6fb8d662048b
-	github.com/bassosimone/pkitest v0.0.0-20260426214024-1be367af2507
-	github.com/bassosimone/runtimex v0.0.0-20260426205938-f859235d82e0
-	github.com/bassosimone/uis v0.0.0-20260426220946-d787919141e0
+	github.com/bassosimone/dnstest v0.0.0-20260506051800-2638107a5039
+	github.com/bassosimone/minest v0.0.0-20260506053106-e356f0714ff1
+	github.com/bassosimone/pkitest v0.0.0-20260506051517-569dfef1de64
+	github.com/bassosimone/runtimex v0.0.0-20260430082757-ec3a7b516e79
+	github.com/bassosimone/uis v0.0.0-20260506052601-c285f3c00e55
 	github.com/stretchr/testify v1.11.1
 )
 
 require (
-	github.com/bassosimone/dnscodec v0.0.0-20260426211622-1c3a8bede978 // indirect
+	github.com/bassosimone/dnscodec v0.0.0-20260506051025-477fb6fc65dd // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
@@ -29,5 +29,5 @@ require (
 	golang.org/x/time v0.15.0 // indirect
 	golang.org/x/tools v0.44.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gvisor.dev/gvisor v0.0.0-20260424223757-190f2cb4c65a // indirect
+	gvisor.dev/gvisor v0.0.0-20260505232712-673442e0d361 // indirect
 )
