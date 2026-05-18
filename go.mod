@@ -7,13 +7,13 @@ require (
 	github.com/bassosimone/minest v0.0.0-20260511085935-ffd477bc2b0c
 	github.com/bassosimone/pkitest v0.0.0-20260506051517-569dfef1de64
 	github.com/bassosimone/runtimex v0.0.0-20260430082757-ec3a7b516e79
-	github.com/bassosimone/uis v0.0.0-20260511085340-3f361254c84e
+	github.com/bassosimone/uis v0.0.0-20260518182845-3b08c92a27ac
 	github.com/stretchr/testify v1.11.1
 )
 
 require (
 	github.com/bassosimone/dnscodec v0.0.0-20260511083822-baba060bd35d // indirect
-	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/kr/text v0.2.0 // indirect
@@ -29,5 +29,5 @@ require (
 	golang.org/x/time v0.15.0 // indirect
 	golang.org/x/tools v0.45.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gvisor.dev/gvisor v0.0.0-20260508212337-96dad6a2da94 // indirect
+	gvisor.dev/gvisor v0.0.0-20260518063529-209a0ce076a1 // indirect
 )
