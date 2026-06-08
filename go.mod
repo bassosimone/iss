@@ -1,13 +1,13 @@
 module github.com/bassosimone/iss
 
-go 1.25.6
+go 1.26.3
 
 require (
-	github.com/bassosimone/dnstest v0.0.0-20260525094743-b1e56ab3dd3f
-	github.com/bassosimone/minest v0.0.0-20260525101224-8c9b5b7856fd
-	github.com/bassosimone/pkitest v0.0.0-20260506051517-569dfef1de64
+	github.com/bassosimone/dnstest v0.0.0-20260608045954-c081bd6f2cbb
+	github.com/bassosimone/minest v0.0.0-20260608051146-815c2e72a9c9
+	github.com/bassosimone/pkitest v0.0.0-20260608030630-3ea085cb927c
 	github.com/bassosimone/runtimex v0.0.0-20260430082757-ec3a7b516e79
-	github.com/bassosimone/uis v0.0.0-20260525095713-36300d43d217
+	github.com/bassosimone/uis v0.0.0-20260608052932-e0ddb97281a0
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -19,8 +19,8 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/miekg/dns v1.1.72 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/rogpeppe/go-internal v1.14.1 // indirect
-	golang.org/x/exp v0.0.0-20260508232706-74f9aab9d74a // indirect
+	github.com/rogpeppe/go-internal v1.15.0 // indirect
+	golang.org/x/exp v0.0.0-20260603202125-055de637280b // indirect
 	golang.org/x/mod v0.36.0 // indirect
 	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
@@ -29,5 +29,5 @@ require (
 	golang.org/x/time v0.15.0 // indirect
 	golang.org/x/tools v0.45.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gvisor.dev/gvisor v0.0.0-20260519190036-266ba6c868f3 // indirect
+	gvisor.dev/gvisor v0.0.0-20260604230326-c7dbb92365cd // indirect
 )
