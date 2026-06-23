@@ -12,8 +12,8 @@ github.com/bassosimone/pkitest v0.0.0-20260615122033-8e73e7843b18 h1:dNOhG10i6Ev
 github.com/bassosimone/pkitest v0.0.0-20260615122033-8e73e7843b18/go.mod h1:bqzLG3IMUj5JMll07HmlkHW/3S89+lsnbQN9RQwQ/80=
 github.com/bassosimone/runtimex v0.0.0-20260615112505-ee72c4f0769e h1:J3ERL+Iben+Aog/hfy+qcRuhzH6dZceq/v1GuEyqlPA=
 github.com/bassosimone/runtimex v0.0.0-20260615112505-ee72c4f0769e/go.mod h1:GDr46yuJzuDkzOMI1/9Voo3s7VmYBU/6pkuaI5FR7gE=
-github.com/bassosimone/uis v0.0.0-20260617115542-d9231c663230 h1:Aqs021QExpApJn/qwpQS+uGYfSTLy8yEEpGMUdIDbVI=
-github.com/bassosimone/uis v0.0.0-20260617115542-d9231c663230/go.mod h1:ZD5Heb1LXXkFj86WEJwdDryu0Zjey1NkrFFr8lvcuZk=
+github.com/bassosimone/uis v0.0.0-20260623164929-0b62a963ad5e h1:7V6PryUyytf/hpbgmxXupR0fat7U/d1xEqtyKzc0/Ck=
+github.com/bassosimone/uis v0.0.0-20260623164929-0b62a963ad5e/go.mod h1:jZYtp72ouNNruwInDcZVd38VjpuFuJUlqHkEAxmJyBY=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1VwoXQT9A3Wy9MM3WgvqSxFWenqJduM=
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -68,5 +68,5 @@ gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c h1:Hei/4ADfdWqJk1ZMxUNpqntN
 gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c/go.mod h1:JHkPIbrfpd72SG/EVd6muEfDQjcINNoR0C8j2r3qZ4Q=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
-gvisor.dev/gvisor v0.0.0-20260616165937-8e4bc62602eb h1:TJ8BuwC+RUuKZgRETtxPjRk8e2Kj3kH08I73AKIdOFY=
-gvisor.dev/gvisor v0.0.0-20260616165937-8e4bc62602eb/go.mod h1:8aLQqUBHDH8fY5y60lzmwDpMMbQCcT3EBfoSwhfaGCY=
+gvisor.dev/gvisor v0.0.0-20260622202500-b859e3a10a38 h1:JUVEaeTIR4DS13PGZp/WozQ8Cd/SHNaT8B4Yke25S80=
+gvisor.dev/gvisor v0.0.0-20260622202500-b859e3a10a38/go.mod h1:8aLQqUBHDH8fY5y60lzmwDpMMbQCcT3EBfoSwhfaGCY=

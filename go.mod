@@ -7,7 +7,7 @@ require (
 	github.com/bassosimone/minest v0.0.0-20260617161818-8b6c728d5e95
 	github.com/bassosimone/pkitest v0.0.0-20260615122033-8e73e7843b18
 	github.com/bassosimone/runtimex v0.0.0-20260615112505-ee72c4f0769e
-	github.com/bassosimone/uis v0.0.0-20260617115542-d9231c663230
+	github.com/bassosimone/uis v0.0.0-20260623164929-0b62a963ad5e
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -29,5 +29,5 @@ require (
 	golang.org/x/time v0.15.0 // indirect
 	golang.org/x/tools v0.46.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gvisor.dev/gvisor v0.0.0-20260616165937-8e4bc62602eb // indirect
+	gvisor.dev/gvisor v0.0.0-20260622202500-b859e3a10a38 // indirect
 )
