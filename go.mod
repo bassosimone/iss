@@ -1,13 +1,13 @@
 module github.com/bassosimone/iss
 
-go 1.27.2
+go 1.27.3
 
 require (
 	github.com/bassosimone/dnstest v0.0.0-20261016120535-fed9dc37652e
 	github.com/bassosimone/minest v0.0.0-20261016121358-16a4dc5edc1d
 	github.com/bassosimone/pkitest v0.0.0-20261005145452-7b85881f912d
 	github.com/bassosimone/runtimex v0.0.0-20261005144844-77dc639b0e90
-	github.com/bassosimone/uis v0.0.0-20261016121023-2c9d6c57b607
+	github.com/bassosimone/uis v0.0.0-20261026171439-b24c9b14504a
 	github.com/stretchr/testify v1.12.1
 )
 
@@ -23,5 +23,5 @@ require (
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 	golang.org/x/time v0.16.0 // indirect
-	gvisor.dev/gvisor v0.0.0-20261016110116-0ba8c8ecbda8 // indirect
+	gvisor.dev/gvisor v0.0.0-20261026101154-90a2f3f7b8d1 // indirect
 )
